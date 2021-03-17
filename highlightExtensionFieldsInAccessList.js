@@ -3,9 +3,9 @@
   If you want to add a usergroup for your new extension, apply the key "tx_myext_domain_model" below and all the corresponding accordions will become red or get a red border so that you don't need to expand all fields. It is also useful if you have fields with the same label like title or category.
 */
 
+var myExtension = 'tx_myext_domain_model';
 var autoCheckAll = true;
 var autoUnCheckAll = false;
-var myExtension = 'tx_myext_domain_model';
 
 /* typo3-contentIframe is the id of the main iframe in the backend */
 var iframe = document.getElementById('typo3-contentIframe');
